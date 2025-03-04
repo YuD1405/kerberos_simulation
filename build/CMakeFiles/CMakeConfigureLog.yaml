@@ -1,0 +1,528 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 3/4/2025 8:37:07 AM.
+      Project "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\4.0.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\quang\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\quang\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\quang\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\quang\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\quang\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\4.0.0-rc1\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\quang\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\4.0.0-rc1\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\quang\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\quang\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\4.0.0-rc1\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\quang\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\quang\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\4.0.0-rc1\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\quang\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\4.0.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:02.96
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/quang/OneDrive/Máy tính/clone_kerberos/kerberos_simulation/build/CMakeFiles/4.0.0-rc1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 3/4/2025 8:37:11 AM.
+      Project "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\4.0.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\quang\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\quang\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\quang\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\quang\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\quang\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\4.0.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\quang\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\4.0.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\quang\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\quang\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\4.0.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\quang\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\quang\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\4.0.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\quang\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\4.0.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:02.04
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/quang/OneDrive/Máy tính/clone_kerberos/kerberos_simulation/build/CMakeFiles/4.0.0-rc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:81 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/quang/OneDrive/M\u00e1y t\u00ednh/clone_kerberos/kerberos_simulation/build/CMakeFiles/CMakeScratch/TryCompile-qadfkd"
+      binary: "C:/Users/quang/OneDrive/M\u00e1y t\u00ednh/clone_kerberos/kerberos_simulation/build/CMakeFiles/CMakeScratch/TryCompile-qadfkd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/Users/quang/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/quang/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/quang/OneDrive/Máy tính/clone_kerberos/kerberos_simulation/build/CMakeFiles/CMakeScratch/TryCompile-qadfkd'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_7f490.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 3/4/2025 8:37:15 AM.
+        Project "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qadfkd\\cmTC_7f490.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_7f490.dir\\Debug\\".
+          Creating directory "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qadfkd\\Debug\\".
+          Creating directory "cmTC_7f490.dir\\Debug\\cmTC_7f490.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_7f490.dir\\Debug\\cmTC_7f490.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7f490.dir\\Debug\\\\" /Fd"cmTC_7f490.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30151 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCCompilerABI.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7f490.dir\\Debug\\\\" /Fd"cmTC_7f490.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qadfkd\\Debug\\cmTC_7f490.exe" /INCREMENTAL /ILK:"cmTC_7f490.dir\\Debug\\cmTC_7f490.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/quang/OneDrive/Máy tính/clone_kerberos/kerberos_simulation/build/CMakeFiles/CMakeScratch/TryCompile-qadfkd/Debug/cmTC_7f490.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/quang/OneDrive/Máy tính/clone_kerberos/kerberos_simulation/build/CMakeFiles/CMakeScratch/TryCompile-qadfkd/Debug/cmTC_7f490.lib" /MACHINE:X64  /machine:x64 cmTC_7f490.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_7f490.vcxproj -> C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qadfkd\\Debug\\cmTC_7f490.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_7f490.dir\\Debug\\cmTC_7f490.tlog\\unsuccessfulbuild".
+          Touching "cmTC_7f490.dir\\Debug\\cmTC_7f490.tlog\\cmTC_7f490.lastbuildstate".
+        Done Building Project "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qadfkd\\cmTC_7f490.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.78
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:225 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:262 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30151.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:81 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/quang/OneDrive/M\u00e1y t\u00ednh/clone_kerberos/kerberos_simulation/build/CMakeFiles/CMakeScratch/TryCompile-ldvo6y"
+      binary: "C:/Users/quang/OneDrive/M\u00e1y t\u00ednh/clone_kerberos/kerberos_simulation/build/CMakeFiles/CMakeScratch/TryCompile-ldvo6y"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/Users/quang/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/quang/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/quang/OneDrive/Máy tính/clone_kerberos/kerberos_simulation/build/CMakeFiles/CMakeScratch/TryCompile-ldvo6y'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_5db95.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 3/4/2025 8:37:17 AM.
+        Project "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ldvo6y\\cmTC_5db95.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_5db95.dir\\Debug\\".
+          Creating directory "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ldvo6y\\Debug\\".
+          Creating directory "cmTC_5db95.dir\\Debug\\cmTC_5db95.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_5db95.dir\\Debug\\cmTC_5db95.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5db95.dir\\Debug\\\\" /Fd"cmTC_5db95.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30151 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5db95.dir\\Debug\\\\" /Fd"cmTC_5db95.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ldvo6y\\Debug\\cmTC_5db95.exe" /INCREMENTAL /ILK:"cmTC_5db95.dir\\Debug\\cmTC_5db95.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/quang/OneDrive/Máy tính/clone_kerberos/kerberos_simulation/build/CMakeFiles/CMakeScratch/TryCompile-ldvo6y/Debug/cmTC_5db95.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/quang/OneDrive/Máy tính/clone_kerberos/kerberos_simulation/build/CMakeFiles/CMakeScratch/TryCompile-ldvo6y/Debug/cmTC_5db95.lib" /MACHINE:X64  /machine:x64 cmTC_5db95.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_5db95.vcxproj -> C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ldvo6y\\Debug\\cmTC_5db95.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_5db95.dir\\Debug\\cmTC_5db95.tlog\\unsuccessfulbuild".
+          Touching "cmTC_5db95.dir\\Debug\\cmTC_5db95.tlog\\cmTC_5db95.lastbuildstate".
+        Done Building Project "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ldvo6y\\cmTC_5db95.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.86
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:225 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:262 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30151.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Users/quang/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "C:/Users/quang/vcpkg/installed/x64-windows/share/boost_atomic/boost_atomic-config.cmake:31 (find_dependency)"
+      - "C:/Users/quang/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "C:/Users/quang/vcpkg/installed/x64-windows/share/boost_thread/boost_thread-config.cmake:13 (find_dependency)"
+      - "C:/Users/quang/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Users/quang/vcpkg/installed/x64-windows/share/boost/BoostConfig.cmake:67 (find_package)"
+      - "C:/Users/quang/vcpkg/installed/x64-windows/share/boost/BoostConfig.cmake:128 (boostcfg_find_component)"
+      - "C:/Users/quang/vcpkg/installed/x64-windows/share/boost/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "C:/Users/quang/vcpkg/scripts/buildsystems/vcpkg.cmake:813 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindBoost.cmake:609 (find_package)"
+      - "C:/Users/quang/vcpkg/installed/x64-windows/share/boost/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "C:/Users/quang/vcpkg/scripts/buildsystems/vcpkg.cmake:813 (include)"
+      - "CMakeLists.txt:13 (find_package)"
+    directories:
+      source: "C:/Users/quang/OneDrive/M\u00e1y t\u00ednh/clone_kerberos/kerberos_simulation/build/CMakeFiles/CMakeScratch/TryCompile-y6956x"
+      binary: "C:/Users/quang/OneDrive/M\u00e1y t\u00ednh/clone_kerberos/kerberos_simulation/build/CMakeFiles/CMakeScratch/TryCompile-y6956x"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/Users/quang/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/quang/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/quang/OneDrive/Máy tính/clone_kerberos/kerberos_simulation/build/CMakeFiles/CMakeScratch/TryCompile-y6956x'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_b1b2d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 3/4/2025 8:37:21 AM.
+        Project "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y6956x\\cmTC_b1b2d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b1b2d.dir\\Debug\\".
+          Creating directory "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y6956x\\Debug\\".
+          Creating directory "cmTC_b1b2d.dir\\Debug\\cmTC_b1b2d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b1b2d.dir\\Debug\\cmTC_b1b2d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b1b2d.dir\\Debug\\\\" /Fd"cmTC_b1b2d.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y6956x\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30151 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          src.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b1b2d.dir\\Debug\\\\" /Fd"cmTC_b1b2d.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y6956x\\src.c"
+        C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y6956x\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y6956x\\cmTC_b1b2d.vcxproj]
+        Done Building Project "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y6956x\\cmTC_b1b2d.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y6956x\\cmTC_b1b2d.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y6956x\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y6956x\\cmTC_b1b2d.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.60
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Users/quang/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "C:/Users/quang/vcpkg/installed/x64-windows/share/boost_atomic/boost_atomic-config.cmake:31 (find_dependency)"
+      - "C:/Users/quang/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "C:/Users/quang/vcpkg/installed/x64-windows/share/boost_thread/boost_thread-config.cmake:13 (find_dependency)"
+      - "C:/Users/quang/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Users/quang/vcpkg/installed/x64-windows/share/boost/BoostConfig.cmake:67 (find_package)"
+      - "C:/Users/quang/vcpkg/installed/x64-windows/share/boost/BoostConfig.cmake:128 (boostcfg_find_component)"
+      - "C:/Users/quang/vcpkg/installed/x64-windows/share/boost/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "C:/Users/quang/vcpkg/scripts/buildsystems/vcpkg.cmake:813 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindBoost.cmake:609 (find_package)"
+      - "C:/Users/quang/vcpkg/installed/x64-windows/share/boost/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "C:/Users/quang/vcpkg/scripts/buildsystems/vcpkg.cmake:813 (include)"
+      - "CMakeLists.txt:13 (find_package)"
+    directories:
+      source: "C:/Users/quang/OneDrive/M\u00e1y t\u00ednh/clone_kerberos/kerberos_simulation/build/CMakeFiles/CMakeScratch/TryCompile-f3t706"
+      binary: "C:/Users/quang/OneDrive/M\u00e1y t\u00ednh/clone_kerberos/kerberos_simulation/build/CMakeFiles/CMakeScratch/TryCompile-f3t706"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/Users/quang/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/quang/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/quang/OneDrive/Máy tính/clone_kerberos/kerberos_simulation/build/CMakeFiles/CMakeScratch/TryCompile-f3t706'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_f0308.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 3/4/2025 8:37:22 AM.
+        Project "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f3t706\\cmTC_f0308.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f0308.dir\\Debug\\".
+          Creating directory "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f3t706\\Debug\\".
+          Creating directory "cmTC_f0308.dir\\Debug\\cmTC_f0308.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f0308.dir\\Debug\\cmTC_f0308.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f0308.dir\\Debug\\\\" /Fd"cmTC_f0308.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f3t706\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30151 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckFunctionExists.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f0308.dir\\Debug\\\\" /Fd"cmTC_f0308.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f3t706\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f3t706\\Debug\\cmTC_f0308.exe" /INCREMENTAL /ILK:"cmTC_f0308.dir\\Debug\\cmTC_f0308.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/quang/OneDrive/Máy tính/clone_kerberos/kerberos_simulation/build/CMakeFiles/CMakeScratch/TryCompile-f3t706/Debug/cmTC_f0308.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/quang/OneDrive/Máy tính/clone_kerberos/kerberos_simulation/build/CMakeFiles/CMakeScratch/TryCompile-f3t706/Debug/cmTC_f0308.lib" /MACHINE:X64  /machine:x64 cmTC_f0308.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f3t706\\cmTC_f0308.vcxproj]
+        Done Building Project "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f3t706\\cmTC_f0308.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f3t706\\cmTC_f0308.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f3t706\\cmTC_f0308.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.68
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Users/quang/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "C:/Users/quang/vcpkg/installed/x64-windows/share/boost_atomic/boost_atomic-config.cmake:31 (find_dependency)"
+      - "C:/Users/quang/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "C:/Users/quang/vcpkg/installed/x64-windows/share/boost_thread/boost_thread-config.cmake:13 (find_dependency)"
+      - "C:/Users/quang/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Users/quang/vcpkg/installed/x64-windows/share/boost/BoostConfig.cmake:67 (find_package)"
+      - "C:/Users/quang/vcpkg/installed/x64-windows/share/boost/BoostConfig.cmake:128 (boostcfg_find_component)"
+      - "C:/Users/quang/vcpkg/installed/x64-windows/share/boost/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "C:/Users/quang/vcpkg/scripts/buildsystems/vcpkg.cmake:813 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindBoost.cmake:609 (find_package)"
+      - "C:/Users/quang/vcpkg/installed/x64-windows/share/boost/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "C:/Users/quang/vcpkg/scripts/buildsystems/vcpkg.cmake:813 (include)"
+      - "CMakeLists.txt:13 (find_package)"
+    directories:
+      source: "C:/Users/quang/OneDrive/M\u00e1y t\u00ednh/clone_kerberos/kerberos_simulation/build/CMakeFiles/CMakeScratch/TryCompile-yb6ape"
+      binary: "C:/Users/quang/OneDrive/M\u00e1y t\u00ednh/clone_kerberos/kerberos_simulation/build/CMakeFiles/CMakeScratch/TryCompile-yb6ape"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/Users/quang/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/quang/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/quang/OneDrive/Máy tính/clone_kerberos/kerberos_simulation/build/CMakeFiles/CMakeScratch/TryCompile-yb6ape'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_53e45.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 3/4/2025 8:37:23 AM.
+        Project "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yb6ape\\cmTC_53e45.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_53e45.dir\\Debug\\".
+          Creating directory "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yb6ape\\Debug\\".
+          Creating directory "cmTC_53e45.dir\\Debug\\cmTC_53e45.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_53e45.dir\\Debug\\cmTC_53e45.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_53e45.dir\\Debug\\\\" /Fd"cmTC_53e45.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yb6ape\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30151 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckFunctionExists.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_53e45.dir\\Debug\\\\" /Fd"cmTC_53e45.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yb6ape\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yb6ape\\Debug\\cmTC_53e45.exe" /INCREMENTAL /ILK:"cmTC_53e45.dir\\Debug\\cmTC_53e45.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/quang/OneDrive/Máy tính/clone_kerberos/kerberos_simulation/build/CMakeFiles/CMakeScratch/TryCompile-yb6ape/Debug/cmTC_53e45.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/quang/OneDrive/Máy tính/clone_kerberos/kerberos_simulation/build/CMakeFiles/CMakeScratch/TryCompile-yb6ape/Debug/cmTC_53e45.lib" /MACHINE:X64  /machine:x64 cmTC_53e45.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yb6ape\\cmTC_53e45.vcxproj]
+        Done Building Project "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yb6ape\\cmTC_53e45.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yb6ape\\cmTC_53e45.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\quang\\OneDrive\\Máy tính\\clone_kerberos\\kerberos_simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yb6ape\\cmTC_53e45.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.67
+        
+      exitCode: 1
+...

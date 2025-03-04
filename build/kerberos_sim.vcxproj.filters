@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\kerberos_auth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\kerberos_tgs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\kerberos_service.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\encryption.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\kerberos_auth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\kerberos_tgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\kerberos_service.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\encryption.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6B91C0DA-1B42-3C5C-96BF-8652972BB98D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ACC3BE86-3C52-3541-93CB-AAB193A7636E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
