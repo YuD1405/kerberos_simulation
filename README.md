@@ -21,11 +21,9 @@ Thư mục dự án bao gồm các thành phần sau:
   - `service_server.cpp`: Xử lý xác thực và cung cấp dịch vụ.  
   - `encryption.cpp`: Cung cấp các hàm mã hóa và giải mã bằng OpenSSL.  
   - `kerberos_protocol.cpp`: Mô phỏng luồng hoạt động của giao thức Kerberos.  
-  - `kerberos_protocol.h`: Khai báo các hàm mô phỏng Kerberos.  
-  - `encryption.h`: Định nghĩa các hàm mã hóa và bảo mật.  
 
 - **`include/`**: Chứa các file header để tổ chức mã nguồn.  
-  - `authentication_server.h`, `ticket_granting_server.h`, `service_server.h`: Định nghĩa các chức năng của từng thành phần.  
+  - `authentication_server.h`, `ticket_granting_server.h`, `service_server.h`, `kerberos_protocol.h`, `encryption.h`: Định nghĩa các chức năng của từng thành phần.  
 
 - **`CMakeLists.txt`**: File cấu hình CMake để biên dịch chương trình.  
 - **`README.md`**: Tài liệu hướng dẫn sử dụng và cài đặt.  
@@ -35,8 +33,8 @@ Thư mục dự án bao gồm các thành phần sau:
 
 ## **Cài Đặt Môi Trường**  
 
-### **1. Cài Đặt OpenSSL bằng Vcpkg**  
-Chương trình sử dụng OpenSSL để thực hiện mã hóa dữ liệu. Nếu bạn chưa cài đặt **Vcpkg**, hãy làm theo các bước sau:  
+### **1. Cài Đặt OpenSSL, Boost bằng Vcpkg**  
+Chương trình sử dụng OpenSSL, Boost để thực hiện mã hóa dữ liệu. Nếu bạn chưa cài đặt **Vcpkg**, hãy làm theo các bước sau:  
 
 1. **Tải về và cài đặt Vcpkg**  
    ```sh
@@ -56,6 +54,10 @@ Chương trình sử dụng OpenSSL để thực hiện mã hóa dữ liệu. N�
      vcpkg install openssl
      ```
 
+3. **Cài đặt Boost**  
+     ```sh
+     vcpkg install boost
+     ```
 ---
 
 ## **Hướng Dẫn Build & Chạy Chương Trình**  
@@ -87,7 +89,7 @@ Sau khi đã cài đặt **OpenSSL**, tiến hành build chương trình bằng 
 ---
 
 ### **3. Chạy Chương Trình**  
-Sau khi build thành công, chạy chương trình như sau:  
+Sau khi build thành công, cd vào 'build/Debug' chạy chương trình như sau:  
 
 - Trên Linux/macOS:  
   ```sh
