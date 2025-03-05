@@ -1,4 +1,4 @@
-#include "encryption.h"
+#include "../include/encryption.h"
 #include <openssl/rand.h>
 #include <iostream>
 

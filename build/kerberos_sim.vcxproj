@@ -382,14 +382,18 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\main.cpp" />
-    <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\kerberos_auth.cpp" />
-    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\kerberos_auth.h" />
-    <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\kerberos_tgs.cpp" />
-    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\kerberos_tgs.h" />
-    <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\kerberos_service.cpp" />
-    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\kerberos_service.h" />
+    <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\authentication_server.cpp" />
+    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\include\authentication_server.h" />
+    <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\ticket_granting_server.cpp" />
+    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\include\ticket_granting_server.h" />
+    <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\service_server.cpp" />
+    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\include\service_server.h" />
     <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\encryption.cpp" />
-    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\encryption.h" />
+    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\include\encryption.h" />
+    <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\client.cpp" />
+    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\include\client.h" />
+    <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\kerberos_protocol.cpp" />
+    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\include\kerberos_protocol.h" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

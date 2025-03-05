@@ -15,10 +15,12 @@ find_package(Boost REQUIRED COMPONENTS system thread asio)
 # Thêm source code
 add_executable(kerberos_sim
     src/main.cpp
-    src/kerberos_auth.cpp src/kerberos_auth.h
-    src/kerberos_tgs.cpp src/kerberos_tgs.h
-    src/kerberos_service.cpp src/kerberos_service.h
-    src/encryption.cpp src/encryption.h
+    src/authentication_server.cpp include/authentication_server.h
+    src/ticket_granting_server.cpp include/ticket_granting_server.h
+    src/service_server.cpp include/service_server.h
+    src/encryption.cpp include/encryption.h
+    src/client.cpp include/client.h
+    src/kerberos_protocol.cpp include/kerberos_protocol.h
 )
 
 # Link thư viện

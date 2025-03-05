@@ -1,7 +1,7 @@
 #include <iostream>
-#include "kerberos_auth.h"
-#include "kerberos_tgs.h"
-#include "kerberos_service.h"
+#include "../include/authentication_server.h"
+#include "../include/ticket_granting_server.h"
+#include "../include/service_server.h"
 
 int main() {
     AuthenticationServer as;
@@ -23,12 +23,12 @@ int main() {
     // Bước 2: Yêu cầu vé dịch vụ từ TGS
     std::cout << "---------------Yeu cau ve dich vu tu TGS---------------" << std::endl;
     std::string serviceName = "FileServer";
-    std::string encryptedServiceTicket = tgs.GenerateServiceTicket(encryptedTGT, serviceName);
+    std::string encryptedServiceTicket = tgs.Generate_Service_Ticket(encryptedTGT, serviceName);
     std::cout << std::endl;
     
     // Bước 3: Truy cập dịch vụ
     std::cout << "---------------Truy cap dich vu---------------" << std::endl;
-    if (ss.ValidateServiceTicket(encryptedServiceTicket)) {
+    if (ss.Validate_Service_Ticket(encryptedServiceTicket)) {
         std::cout << "Access Granted to " << serviceName << std::endl;
     } else {
         std::cout << "Access Denied!" << std::endl;

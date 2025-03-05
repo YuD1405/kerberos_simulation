@@ -4,30 +4,42 @@
     <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\kerberos_auth.cpp">
+    <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\authentication_server.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\kerberos_tgs.cpp">
+    <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\ticket_granting_server.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\kerberos_service.cpp">
+    <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\service_server.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\encryption.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\kerberos_protocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\kerberos_auth.h">
+    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\include\authentication_server.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\kerberos_tgs.h">
+    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\include\ticket_granting_server.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\kerberos_service.h">
+    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\include\service_server.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\encryption.h">
+    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\include\encryption.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\include\client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\include\kerberos_protocol.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

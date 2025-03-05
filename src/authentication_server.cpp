@@ -1,5 +1,5 @@
-#include "kerberos_auth.h"
-#include "encryption.h"
+#include "../include/authentication_server.h"
+#include "../include/encryption.h"
 #include <iostream>
 
 AuthenticationServer::AuthenticationServer() {
