@@ -7,12 +7,18 @@ AuthenticationServer::AuthenticationServer() {
     userDB["alice"] = "password123";
 }
 
-std::string AuthenticationServer::AuthenticateUser(const std::string& username, const std::string& password) {
+bool AuthenticationServer::AuthenticateUser(const string& username, const string& password) {
+    cout << "[INFO - AS] Server is authenticating ... " << endl;
     if (userDB.find(username) != userDB.end() && userDB[username] == password) {
-        std::string sessionKey = "session_key_" + username;
-        std::cout << "Session key (Authen): " << sessionKey << std::endl;
-        std::cout << "Encrypt Session key (Authen): " << std::endl;
-        return Encrypt(sessionKey, "KDC_master_key");
+        cout << "[INFO - AS] User exists." << endl;
+        return 1;
     }
-    return "Authentication Failed";
+    cerr << "[INFO - AS] User does not exist." << endl;
+    return 0;
+}
+
+string AuthenticationServer::Generate_TGT(const string& username, const string& kdc_master_key){
+    string sessionKey = "session_key_" + username;
+    cout << "[INFO - AS] Session key (Authen): " << sessionKey << endl;
+    return Encrypt(sessionKey, kdc_master_key);
 }

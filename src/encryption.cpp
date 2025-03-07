@@ -2,14 +2,14 @@
 #include <openssl/rand.h>
 #include <iostream>
 
-std::string Encrypt(const std::string& plaintext, const std::string& key) {
+string Encrypt(const string& plaintext, const string& key) {
     // Mã hóa AES đơn giản với OpenSSL
-    std::cout << "Encrypt: " << "encrypted_" + plaintext << std::endl;
-    return "encrypted_" + plaintext;
+    return "encrypted_" + plaintext + key;
 }
 
-std::string Decrypt(const std::string& ciphertext, const std::string& key) {
+string Decrypt(const string& ciphertext, const string& key) {
     // Giải mã AES đơn giản với OpenSSL
-    std::cout << "Decrypt: " << ciphertext.substr(10) << std::endl;
-    return ciphertext.substr(10); // Bỏ "encrypted_"
+    if (ciphertext.find("master_key_of_quang_duy") != string::npos)
+        return "decrypted_" + ciphertext.substr(10); // Bỏ "encrypted_"
+    return ciphertext;
 }
