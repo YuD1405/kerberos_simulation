@@ -6,8 +6,8 @@ using namespace std;
 
 class TicketGrantingServer {
 public:
-    string Validate_TGT(const string& tgt);
-    string Generate_Service_Ticket(const string& encryptedTGT, const string& serviceName);
+    bool Validate_TGT(const string& encryptedTGT, const string& kdc_master_key);
+    string Generate_Service_Ticket(const string& serviceName, const string& kdc_master_key);
 };
 
 #endif

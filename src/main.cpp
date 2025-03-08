@@ -1,37 +1,54 @@
 #include <iostream>
-#include "../include/authentication_server.h"
-#include "../include/ticket_granting_server.h"
-#include "../include/service_server.h"
+#include "../include/kerberos_protocol.h"
 
 int main() {
-    AuthenticationServer as;
-    TicketGrantingServer tgs;
-    ServiceServer ss;
+    // Khởi tạo user
+    string username = "alice";
+    string password = "password123";
+    Client user_1(username, password); 
 
-    std::string username = "alice";
-    std::string password = "password123";
+    // Khởi tạo các server
+    AuthenticationServer AS;
+    TicketGrantingServer TGS;
+    ServiceServer SS;
+
+    // Khởi tạo protocol
+    KerberosProtocol kerberos(AS, TGS, SS);
+
+    // KDC master key 
+    string kdc_master_key = "master_key_of_quang_duy";
 
     // Bước 1: Xác thực với Authentication Server
-    std::cout << "---------------Xac thuc voi Authen Server---------------" << std::endl;
-    std::string encryptedTGT = as.AuthenticateUser(username, password);
-    if (encryptedTGT == "Authentication Failed") {
-        std::cout << "Login Failed!" << std::endl;
-        return 1;
+    cout << "---------------Xac thuc voi Authen Server---------------" << endl;
+    string encryptedTGT = kerberos.authenticateClient(user_1);
+    if (encryptedTGT.find("[ERROR - KERBEROS]") != string::npos){
+        cout << "[ERROR - MAIN] Login Failed!" << endl;
+        return 0;
+    } else {
+        cout << "[INFO - MAIN] Login Successfully!" << endl;
     }
-    std::cout << std::endl;
+    cout << endl;
 
     // Bước 2: Yêu cầu vé dịch vụ từ TGS
-    std::cout << "---------------Yeu cau ve dich vu tu TGS---------------" << std::endl;
-    std::string serviceName = "FileServer";
-    std::string encryptedServiceTicket = tgs.Generate_Service_Ticket(encryptedTGT, serviceName);
-    std::cout << std::endl;
+    cout << "---------------Yeu cau ve dich vu tu TGS---------------" << endl;
+    string serviceName = "FileServer";
+    string encryptedServiceTicket = kerberos.requestServiceTicket(user_1, encryptedTGT, serviceName);
+
+    if (encryptedServiceTicket.find("[ERROR - KERBEROS]") != string::npos){
+        cout << "[ERROR - MAIN] Receive ST Failed!" << endl;
+        return 0;
+    } else {
+        cout << "[INFO - MAIN] Receive ST Successfully!" << endl;
+    }
+    cout << endl;
     
     // Bước 3: Truy cập dịch vụ
-    std::cout << "---------------Truy cap dich vu---------------" << std::endl;
-    if (ss.Validate_Service_Ticket(encryptedServiceTicket)) {
-        std::cout << "Access Granted to " << serviceName << std::endl;
-    } else {
-        std::cout << "Access Denied!" << std::endl;
+    cout << "---------------Truy cap dich vu---------------" << endl;
+    if(kerberos.accessService(user_1, encryptedServiceTicket, serviceName)){
+        cout << "[INFO - MAIN] Access Service Successfully!" << endl;
+    } else{
+        cout << "[ERROR - MAIN] Access to Service Failed!" << endl;
+        return 0;
     }
 
     return 0;
