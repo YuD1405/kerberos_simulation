@@ -217,11 +217,20 @@ LIB_EAY_DEBUG:FILEPATH=C:/Users/quang/vcpkg/installed/x64-windows/debug/lib/libc
 //Path to a library.
 LIB_EAY_RELEASE:FILEPATH=C:/Users/quang/vcpkg/installed/x64-windows/lib/libcrypto.lib
 
+//The directory containing a CMake configuration file for MySQL.
+MySQL_DIR:PATH=MySQL_DIR-NOTFOUND
+
 //Path to a file.
 OPENSSL_APPLINK_SOURCE:FILEPATH=C:/Users/quang/vcpkg/installed/x64-windows/include/openssl/applink.c
 
 //Path to a file.
 OPENSSL_INCLUDE_DIR:PATH=C:/Users/quang/vcpkg/installed/x64-windows/include
+
+//The directory containing a CMake configuration file for Protobuf.
+Protobuf_DIR:PATH=C:/Users/quang/vcpkg/installed/x64-windows/share/protobuf
+
+//Path to a program.
+Protobuf_PROTOC_EXECUTABLE:FILEPATH=C:/Users/quang/vcpkg/installed/x64-windows/tools/protobuf/protoc.exe
 
 //Path to a library.
 SSL_EAY_DEBUG:FILEPATH=C:/Users/quang/vcpkg/installed/x64-windows/debug/lib/libssl.lib
@@ -277,6 +286,9 @@ Z_VCPKG_PWSH_PATH:FILEPATH=Z_VCPKG_PWSH_PATH-NOTFOUND
 //The directory which contains the installed libraries for each
 // triplet
 _VCPKG_INSTALLED_DIR:PATH=C:/Users/quang/vcpkg/installed
+
+//The directory containing a CMake configuration file for absl.
+absl_DIR:PATH=C:/Users/quang/vcpkg/installed/x64-windows/share/absl
 
 //The directory containing a CMake configuration file for boost_algorithm.
 boost_algorithm_DIR:PATH=C:/Users/quang/vcpkg/installed/x64-windows/share/boost_algorithm
@@ -440,6 +452,18 @@ boost_variant2_DIR:PATH=C:/Users/quang/vcpkg/installed/x64-windows/share/boost_v
 //The directory containing a CMake configuration file for boost_winapi.
 boost_winapi_DIR:PATH=C:/Users/quang/vcpkg/installed/x64-windows/share/boost_winapi
 
+//CMake built-in FindProtobuf.cmake module compatible
+protobuf_MODULE_COMPATIBLE:BOOL=OFF
+
+//Enable for verbose output
+protobuf_VERBOSE:BOOL=OFF
+
+//The directory containing a CMake configuration file for unofficial-mysql-connector-cpp.
+unofficial-mysql-connector-cpp_DIR:PATH=C:/Users/quang/vcpkg/installed/x64-windows/share/unofficial-mysql-connector-cpp
+
+//The directory containing a CMake configuration file for utf8_range.
+utf8_range_DIR:PATH=C:/Users/quang/vcpkg/installed/x64-windows/share/utf8_range
+
 
 ########################
 # INTERNAL cache entries
@@ -587,8 +611,13 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[C:/Users/quang/vcpkg/installed/x64-windows/share/boost/BoostConfig.cmake][found components: system thread asio ][v1.86.0()]
 //Details about finding OpenSSL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[optimized;C:/Users/quang/vcpkg/installed/x64-windows/lib/libcrypto.lib;debug;C:/Users/quang/vcpkg/installed/x64-windows/debug/lib/libcrypto.lib][C:/Users/quang/vcpkg/installed/x64-windows/include][ ][v3.4.1()]
+//Details about finding Protobuf
+FIND_PACKAGE_MESSAGE_DETAILS_Protobuf:INTERNAL=[C:/Users/quang/vcpkg/installed/x64-windows/tools/protobuf/protoc.exe][optimized;C:/Users/quang/vcpkg/installed/x64-windows/bin/libprotobuf.dll;debug;C:/Users/quang/vcpkg/installed/x64-windows/debug/bin/libprotobufd.dll][C:/Users/quang/vcpkg/installed/x64-windows/include][v29.3.0()]
+//Details about finding Threads
+FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //ADVANCED property for variable: OPENSSL_INCLUDE_DIR
 OPENSSL_INCLUDE_DIR-ADVANCED:INTERNAL=1
+UNOFFICIAL_MYSQL_CONNECTOR_CPP_INITIALIZED:INTERNAL=1
 //Install the dependencies listed in your manifest:
 //\n    If this is off, you will have to manually install your dependencies.
 //\n    See https://github.com/microsoft/vcpkg/tree/master/docs/specifications/manifests.md
@@ -603,4 +632,8 @@ Z_VCPKG_CHECK_MANIFEST_MODE:INTERNAL=OFF
 Z_VCPKG_POWERSHELL_PATH:INTERNAL=C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
 //Vcpkg root directory
 Z_VCPKG_ROOT_DIR:INTERNAL=C:/Users/quang/vcpkg
+//ADVANCED property for variable: protobuf_MODULE_COMPATIBLE
+protobuf_MODULE_COMPATIBLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: protobuf_VERBOSE
+protobuf_VERBOSE-ADVANCED:INTERNAL=1
 

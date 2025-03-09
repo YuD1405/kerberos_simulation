@@ -1,16 +1,21 @@
 cmake_minimum_required(VERSION 3.15)
 project(Kerberos-Simulation)
 
-# Sử dụng vcpkg (nếu có)
+# Sử dụng vcpkg
 set(CMAKE_TOOLCHAIN_FILE "C:/Users/quang/vcpkg/scripts/buildsystems/vcpkg.cmake" CACHE STRING "Vcpkg toolchain file")
 
-# Chọn C++17
+# Chọn chuẩn C++
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Thêm thư viện
+# Đặt đường dẫn MySQL Connector thủ công (nếu cần)
+set(MYSQL_INCLUDE_DIR "C:/Users/quang/vcpkg/installed/x64-windows/include")
+set(MYSQL_LIB_DIR "C:/Users/quang/vcpkg/installed/x64-windows/lib")
+
+# Tìm các thư viện cần thiết
 find_package(OpenSSL REQUIRED)
 find_package(Boost REQUIRED COMPONENTS system thread asio)
+find_package(unofficial-mysql-connector-cpp CONFIG REQUIRED)
 
 # Thêm source code
 add_executable(kerberos_sim
@@ -21,8 +26,13 @@ add_executable(kerberos_sim
     src/encryption.cpp include/encryption.h
     src/client.cpp include/client.h
     src/kerberos_protocol.cpp include/kerberos_protocol.h
+    src/database.cpp include/database.h # Thêm module quản lý database
 )
+
+# Thêm đường dẫn include & lib thủ công nếu cần
+include_directories(${MYSQL_INCLUDE_DIR})
+link_directories(${MYSQL_LIB_DIR})
 
 # Link thư viện
 target_include_directories(kerberos_sim PRIVATE ${Boost_INCLUDE_DIRS} ${OPENSSL_INCLUDE_DIR})
-target_link_libraries(kerberos_sim PRIVATE ${Boost_LIBRARIES} OpenSSL::SSL OpenSSL::Crypto)
+target_link_libraries(kerberos_sim PRIVATE ${Boost_LIBRARIES} OpenSSL::SSL OpenSSL::Crypto mysqlcppconn mysqlcppconn-static)

@@ -22,6 +22,9 @@
     <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\kerberos_protocol.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\database.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\include\authentication_server.h">
@@ -40,6 +43,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\include\kerberos_protocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\include\database.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

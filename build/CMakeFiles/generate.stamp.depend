@@ -44,6 +44,11 @@ C:/Users/quang/OneDrive/Máy tính/clone_kerberos/kerberos_simulation/build/CMak
 C:/Users/quang/OneDrive/Máy tính/clone_kerberos/kerberos_simulation/build/CMakeFiles/4.0.0-rc1/CMakeCXXCompiler.cmake
 C:/Users/quang/OneDrive/Máy tính/clone_kerberos/kerberos_simulation/build/CMakeFiles/4.0.0-rc1/CMakeRCCompiler.cmake
 C:/Users/quang/OneDrive/Máy tính/clone_kerberos/kerberos_simulation/build/CMakeFiles/4.0.0-rc1/CMakeSystem.cmake
+C:/Users/quang/vcpkg/installed/x64-windows/share/absl/abslConfig.cmake
+C:/Users/quang/vcpkg/installed/x64-windows/share/absl/abslConfigVersion.cmake
+C:/Users/quang/vcpkg/installed/x64-windows/share/absl/abslTargets-debug.cmake
+C:/Users/quang/vcpkg/installed/x64-windows/share/absl/abslTargets-release.cmake
+C:/Users/quang/vcpkg/installed/x64-windows/share/absl/abslTargets.cmake
 C:/Users/quang/vcpkg/installed/x64-windows/share/boost/BoostConfig.cmake
 C:/Users/quang/vcpkg/installed/x64-windows/share/boost/BoostConfigVersion.cmake
 C:/Users/quang/vcpkg/installed/x64-windows/share/boost/vcpkg-cmake-wrapper.cmake
@@ -228,4 +233,21 @@ C:/Users/quang/vcpkg/installed/x64-windows/share/boost_winapi/boost_winapi-confi
 C:/Users/quang/vcpkg/installed/x64-windows/share/boost_winapi/boost_winapi-config.cmake
 C:/Users/quang/vcpkg/installed/x64-windows/share/boost_winapi/boost_winapi-targets.cmake
 C:/Users/quang/vcpkg/installed/x64-windows/share/openssl/vcpkg-cmake-wrapper.cmake
+C:/Users/quang/vcpkg/installed/x64-windows/share/protobuf/protobuf-config-version.cmake
+C:/Users/quang/vcpkg/installed/x64-windows/share/protobuf/protobuf-config.cmake
+C:/Users/quang/vcpkg/installed/x64-windows/share/protobuf/protobuf-generate.cmake
+C:/Users/quang/vcpkg/installed/x64-windows/share/protobuf/protobuf-module.cmake
+C:/Users/quang/vcpkg/installed/x64-windows/share/protobuf/protobuf-options.cmake
+C:/Users/quang/vcpkg/installed/x64-windows/share/protobuf/protobuf-targets-debug.cmake
+C:/Users/quang/vcpkg/installed/x64-windows/share/protobuf/protobuf-targets-release.cmake
+C:/Users/quang/vcpkg/installed/x64-windows/share/protobuf/protobuf-targets.cmake
+C:/Users/quang/vcpkg/installed/x64-windows/share/protobuf/vcpkg-cmake-wrapper.cmake
+C:/Users/quang/vcpkg/installed/x64-windows/share/unofficial-mysql-connector-cpp/unofficial-mysql-connector-cpp-config.cmake
+C:/Users/quang/vcpkg/installed/x64-windows/share/unofficial-mysql-connector-cpp/unofficial-mysql-connector-cpp-targets-debug.cmake
+C:/Users/quang/vcpkg/installed/x64-windows/share/unofficial-mysql-connector-cpp/unofficial-mysql-connector-cpp-targets-release.cmake
+C:/Users/quang/vcpkg/installed/x64-windows/share/unofficial-mysql-connector-cpp/unofficial-mysql-connector-cpp-targets.cmake
+C:/Users/quang/vcpkg/installed/x64-windows/share/utf8_range/utf8_range-config.cmake
+C:/Users/quang/vcpkg/installed/x64-windows/share/utf8_range/utf8_range-targets-debug.cmake
+C:/Users/quang/vcpkg/installed/x64-windows/share/utf8_range/utf8_range-targets-release.cmake
+C:/Users/quang/vcpkg/installed/x64-windows/share/utf8_range/utf8_range-targets.cmake
 C:/Users/quang/vcpkg/scripts/buildsystems/vcpkg.cmake
