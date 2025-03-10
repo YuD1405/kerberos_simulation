@@ -2,12 +2,16 @@
 #define TICKET_GRANTING_SERVER_H
 
 #include <string>
+#include <unordered_map>
+
 using namespace std;
 
-class TicketGrantingServer {
+class TicketGrantingServer
+{
 public:
-    bool Validate_TGT(const string& encryptedTGT, const string& kdc_master_key);
-    string Generate_Service_Ticket(const string& serviceName, const string& kdc_master_key);
+    bool Validate_TGT(const string &encryptedTGT, const string &kdcMasterKey);
+    string Generate_Service_Ticket(const string &username, const string &serviceName, const string &kdcMasterKey);
+    bool Revoke_Service_Ticket(const string &sessionKey);
 };
 
-#endif
+#endif // TICKET_GRANTING_SERVER_H

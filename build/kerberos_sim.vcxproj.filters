@@ -1,57 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\main.cpp">
+    <ClCompile Include="C:\Users\p14s\CODE\kerberos_simulation\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\authentication_server.cpp">
+    <ClCompile Include="C:\Users\p14s\CODE\kerberos_simulation\src\authentication_server.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\ticket_granting_server.cpp">
+    <ClCompile Include="C:\Users\p14s\CODE\kerberos_simulation\src\ticket_granting_server.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\service_server.cpp">
+    <ClCompile Include="C:\Users\p14s\CODE\kerberos_simulation\src\service_server.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\encryption.cpp">
+    <ClCompile Include="C:\Users\p14s\CODE\kerberos_simulation\src\encryption.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\client.cpp">
+    <ClCompile Include="C:\Users\p14s\CODE\kerberos_simulation\src\client.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\src\kerberos_protocol.cpp">
+    <ClCompile Include="C:\Users\p14s\CODE\kerberos_simulation\src\kerberos_protocol.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\include\authentication_server.h">
+    <ClInclude Include="C:\Users\p14s\CODE\kerberos_simulation\include\authentication_server.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\include\ticket_granting_server.h">
+    <ClInclude Include="C:\Users\p14s\CODE\kerberos_simulation\include\ticket_granting_server.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\include\service_server.h">
+    <ClInclude Include="C:\Users\p14s\CODE\kerberos_simulation\include\service_server.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\include\encryption.h">
+    <ClInclude Include="C:\Users\p14s\CODE\kerberos_simulation\include\encryption.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\include\client.h">
+    <ClInclude Include="C:\Users\p14s\CODE\kerberos_simulation\include\client.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\include\kerberos_protocol.h">
+    <ClInclude Include="C:\Users\p14s\CODE\kerberos_simulation\include\kerberos_protocol.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\p14s\CODE\kerberos_simulation\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{6B91C0DA-1B42-3C5C-96BF-8652972BB98D}</UniqueIdentifier>
+      <UniqueIdentifier>{983F8451-26CF-3755-99D3-1F3B5C43973F}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{ACC3BE86-3C52-3541-93CB-AAB193A7636E}</UniqueIdentifier>
+      <UniqueIdentifier>{6FBA59AB-3EDA-3E61-B53A-3624624713B7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

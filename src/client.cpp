@@ -56,7 +56,7 @@ string Client::UserRequest_ServiceTicket(TicketGrantingServer& TGS, const string
         return "Failed: Invalid TGT";
     }
     
-    encrypted_service_ticket = TGS.Generate_Service_Ticket(service_name, "master_key_of_quang_duy");
+    encrypted_service_ticket = TGS.Generate_Service_Ticket(username, service_name, "master_key_of_quang_duy");
 
     if (!encrypted_service_ticket.empty()) {
         cout << "[INFO - CLIENT] Client: Received Service Ticket !\n";

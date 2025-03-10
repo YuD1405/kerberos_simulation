@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.15)
 project(Kerberos-Simulation)
 
 # Sử dụng vcpkg (nếu có)
-set(CMAKE_TOOLCHAIN_FILE "C:/Users/quang/vcpkg/scripts/buildsystems/vcpkg.cmake" CACHE STRING "Vcpkg toolchain file")
+set(CMAKE_TOOLCHAIN_FILE "C:/Users/p14s/vcpkg/scripts/buildsystems/vcpkg.cmake" CACHE STRING "Vcpkg toolchain file")
 
 # Chọn C++17
 set(CMAKE_CXX_STANDARD 17)

@@ -1,6 +1,6 @@
-^C:\USERS\QUANG\ONEDRIVE\MÁY TÍNH\CLONE_KERBEROS\KERBEROS_SIMULATION\CMAKELISTS.TXT
+^C:\USERS\P14S\CODE\KERBEROS_SIMULATION\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/quang/OneDrive/Máy tính/clone_kerberos/kerberos_simulation" "-BC:/Users/quang/OneDrive/Máy tính/clone_kerberos/kerberos_simulation/build" --check-stamp-file "C:/Users/quang/OneDrive/Máy tính/clone_kerberos/kerberos_simulation/build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/p14s/CODE/kerberos_simulation -BC:/Users/p14s/CODE/kerberos_simulation/build --check-stamp-file C:/Users/p14s/CODE/kerberos_simulation/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

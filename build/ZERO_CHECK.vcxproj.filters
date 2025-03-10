@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\quang\OneDrive\Máy tính\clone_kerberos\kerberos_simulation\build\CMakeFiles\c3dd5d46d7f2dcdd9f802c2e3a412564\generate.stamp.rule">
+    <CustomBuild Include="C:\Users\p14s\CODE\kerberos_simulation\build\CMakeFiles\601c86ee2890b8b791aa541e5e65d98f\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{FC091E7B-ED4A-3A1F-A44D-EA9589B86DDB}</UniqueIdentifier>
+      <UniqueIdentifier>{738AD30B-001D-3FAB-9EE0-758B76D575B5}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
